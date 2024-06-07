@@ -4,10 +4,7 @@ import usersRouter from './src/moduels/users/users.routes.js'
 import carsRouter from './src/moduels/cars/cars.routes.js'
 import rentsRouter from './src/moduels/rents/rents.routes.js'
 const app = express()
-const port = 3000 || process.env.PORT
-
-
-
+const port =  process.env.PORT
 
 
 app.use(cors())
